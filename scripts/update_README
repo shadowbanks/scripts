@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -e "Update README" 
+read update
+echo ${update} >> README.md
+echo -e '\n' >> README.md
