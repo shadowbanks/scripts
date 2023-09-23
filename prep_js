@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+echo "#!/usr/bin/node" > $@
+chmod u+x $@
+vim $@
